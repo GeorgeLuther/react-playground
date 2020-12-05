@@ -4,6 +4,7 @@ import Messages from './Messages';
 import TheDate from './state/TheDate';
 import Counter from './state/Counter';
 import Tabs from './state/Tabs';
+import Accordion from './state-drills/Accordion';
 
 const tabsProp = [
   { name: 'First tab',
@@ -17,7 +18,7 @@ const tabsProp = [
 class App extends Component {
   render() {
     return <div>
-      <Tabs tabs={tabsProp} />
+      <Accordion />
     </div>
   }
 }
